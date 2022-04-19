@@ -31,30 +31,54 @@ To Cluster the Marketing dataset to effectively design campaigns around target g
 # Data Transformation
 Standard Scaling the parameters (Quantitative)
 
-# Best Model performance
-![alt text](https://github.com/sanketmore1234/Predict-service-quality/blob/main/Best%20Model%20performance-%20Ridge.jpg?raw=true)
-
 # Finding optimal K
 1. By using Silhouette score
 2. By using Elbow method
 
 # EDA
 ## 1. Visualizing clusters with Income and Age parameters
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/cluster_income_age.png?raw=true)
 
-## 2. Visualizing clusters with Income and Total Age parameters
+## 2. Visualizing clusters with number of members
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/cluster_numbers.png?raw=true)
 
-## 3. Visualizing clusters with Total Spend and Monthly fruit consumption parameters
+## 3. Visualizing clusters in 3d
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/cluster_3d.png?raw=true)
 
-## 4. Visualizing clusters with Total Spend and Monthly meat consumption parameters
+## 4. Visualizing clusters with Total Spend and Monthly fruit consumption parameters
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/Screenshot%202022-04-19%20231052.png?raw=true)
 
-## 5. Visualizing clusters with Total Spend and Monthly sweet consumption parameters
+## 5. Visualizing clusters with Total Spend and Monthly meat consumption parameters
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/Screenshot%202022-04-19%20231105.png?raw=true)
 
-## 6. Visualizing clusters with Income and Total purchases parameters
+## 6. Visualizing clusters with Total Spend and Monthly sweet consumption parameters
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/Screenshot%202022-04-19%20231116.png?raw=true)
 
-## 7. Visualizing clusters with Visits per month and age parameters
+## 7. Visualizing clusters with Income and Total purchases parameters
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/Screenshot%202022-04-19%20231127.png?raw=true)
 
-## 8. Visualizing clusters with Store purchases and age parameters
+## 8. Visualizing clusters with Visits per month and age parameters
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/Screenshot%202022-04-19%20231138.png?raw=true)
 
-## 9. Visualizing clusters with Total Spend and Campaign 5 acceptance parameters
+## 9. Visualizing clusters with Store purchases and age parameters
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/Screenshot%202022-04-19%20231152.png?raw=true)
 
+## 10. Visualizing clusters with Total Spend and Campaign 5 acceptance parameters
+![alt text](https://github.com/sanketmore1234/Campaign-Market-Clustering/blob/main/Screenshot%202022-04-19%20231202.png?raw=true)
 
+# Conclusion
+### Summarizing the insights --------------------------------------
+1. Elite group consists of 460 customers
+2. They form 23% of the population
+3. Elite cluster spends more, has high income
+4. Elite cluster likes Wine, Fruits and other eatables
+5. Elite customers purchase more considering all the food, beverage categories
+### Response to physical Stores --------------------------------------
+Elite customers are more inclined to go to physical stores than web visits
+### Campaign Response --------------------------------------------
+1. Campaigns 1,3,5 and 6 were the ones where maximum participation was from the Elite class
+2. Campaigns 2,4 were the ones where maximum participation was from the Good cluster
+### Marketing objectives --------------------------------------------
+We need to target the Elite class of customers considering all these attributes. Since this is a small group, we can concentrate our efforts more and have effective offers, discounts to maximize Revenues and overall Profit
+We can also target the Good cluster to promote them to the Elite class
+For targeting the Elite class, we can focus on campaigns 1,3,5,6 and check what made these campaigns attract the Elite class
